@@ -11,7 +11,7 @@
 <script>
 let template = { '<>': 'tr', 'html': '<td style="padding-right: 50px;text-align:right"><a href="${url}">${title}</a></td><td>${username}</td>' };
 
-fetch('https://subarufanclub.cz/forum/service/last_topics.php')
+fetch('https://subarufanclub.cz/forum/service/last-topics')
     .then((response) => {
         return response.json();
     })
